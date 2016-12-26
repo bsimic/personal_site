@@ -37,7 +37,7 @@ img{
 }
 
 #stage{
-  background: url("najbolja.jpg") center center no-repeat;
+  background: url("hero_img.jpg") repeat fixed 100%;
   background-size: cover;
   color: white;
   height: 100%;
@@ -45,8 +45,13 @@ img{
   display: flex;
   top: 5em;
   align-items: center;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+  /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+  */
+}
+#parallax-inner{
+  padding-top: 18%;
+  padding-bottom: 18%;
 }
 
 #stage-caption{
@@ -131,8 +136,10 @@ border-bottom-width: 3px;
 .feature{
   background: white;
   color: black;
+  text-align: center;
 }
 /*div angle*/
+/*
 .sideways-left{
     -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
     clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
@@ -141,7 +148,7 @@ border-bottom-width: 3px;
 .sideways-right{
   -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
   clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
-}
+}*/
 
 
 /*svg image size*/
@@ -166,16 +173,12 @@ border-bottom-width: 3px;
 .feature-dark{
   background: black;
   color: white;
+  text-align: center;
 
 }
 
 .feature-dark h2, h4{
   color: white;
-}
-
-.feature-alt{
-  background: #f0f0f0;
-  text-align: center;
 }
 
 #main-footer{
