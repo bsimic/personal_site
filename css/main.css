@@ -121,12 +121,6 @@ border-bottom-width: 3px;
   background-color: black;
 }
 
-#feature-one{
-  background: #ddd1b2;
-}
-#feature-one h4{
-  color: black;
-}
 
 .feature-content{
   padding: 8rem 0;
@@ -134,18 +128,21 @@ border-bottom-width: 3px;
 
 }
 
-#feature{
-  background: lightgray;
+.feature{
+  background: white;
+  color: black;
 }
 /*div angle*/
-.sideways_left{
-    -webkit-clip-path: polygon(4% 0, 100% 0, 100% 100%, 0 100%);
-    clip-path: polygon(4% 0, 100% 0, 100% 100%, 0 100%);
+.sideways-left{
+    -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
 }
-.sideways_right{
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+.sideways-right{
+  -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
 }
+
 
 /*svg image size*/
 .feature-svg{
@@ -167,13 +164,13 @@ border-bottom-width: 3px;
 */
 
 .feature-dark{
-  background: lightgray;
-  color: black;
+  background: black;
+  color: white;
 
 }
 
 .feature-dark h2, h4{
-  color: black;
+  color: white;
 }
 
 .feature-alt{
@@ -224,6 +221,7 @@ border-bottom-width: 3px;
   height: 120px;
   width: 300px;
 }
+
 @media screen and (min-width : 991px) {
 
   .feature-content{
