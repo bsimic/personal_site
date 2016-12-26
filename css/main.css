@@ -1,0 +1,234 @@
+html, body{
+  height: 100%;
+}
+
+body{
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #6c6f73;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h6{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+}
+
+img{
+  max-width: 100%;
+}
+
+.blockquote{
+  font-size: 1.6rem;
+  color: #333;
+  border: none;
+  padding: 0;
+}
+
+.blockquote-footer{
+  margin: 1rem 0 0;
+}
+
+#stage{
+  background: url("najbolja.jpg") center center no-repeat;
+  background-size: cover;
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  top: 5em;
+  align-items: center;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+}
+
+#stage-caption{
+  font-size: 1.4rem;
+  font-weight: 200;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#stage-caption h1, h3{
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#stage-caption p{
+  color: black;
+}
+
+
+/*custom navigation bar*/
+/*main background #229922*/
+.navbar-custom {
+  /*background-color:transparent;*/
+  background: lightgray;
+  color: #ffffff;
+  border-radius:0;
+  opacity: 0.4;
+}
+/*inactive links*/
+.navbar-custom .navbar-nav > li > a {
+  color: black;
+}
+/*active link text color*/
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+  color: black;
+  background-color:transparent;
+}
+/*hover*/
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  /*background-color: green;*/
+  background-color:transparent;
+
+/*
+border-bottom: red solid 1px;
+bottom: 2px;
+border-bottom-width: 3px;
+*/
+
+  opacity: 0.7;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.navbar-custom .navbar-brand {
+  color: #eeeeee;
+}
+/*sendvic*/
+.navbar-custom .navbar-toggle {
+  background-color:#eeeeee;
+}
+/*crte od sendvica*/
+.navbar-custom .icon-bar {
+  background-color: black;
+}
+
+#feature-one{
+  background: #ddd1b2;
+}
+#feature-one h4{
+  color: black;
+}
+
+.feature-content{
+  padding: 8rem 0;
+  overflow: hidden;
+
+}
+
+#feature{
+  background: lightgray;
+}
+/*div angle*/
+.sideways_left{
+    -webkit-clip-path: polygon(4% 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(4% 0, 100% 0, 100% 100%, 0 100%);
+}
+.sideways_right{
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+/*svg image size*/
+.feature-svg{
+  width: 100px;
+  height: 100px;
+}
+
+.card{
+  padding: 50px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*
+.feature-content img{
+  margin-bottom: -13rem;
+}
+*/
+
+.feature-dark{
+  background: lightgray;
+  color: black;
+
+}
+
+.feature-dark h2, h4{
+  color: black;
+}
+
+.feature-alt{
+  background: #f0f0f0;
+  text-align: center;
+}
+
+#main-footer{
+  background: #262f36;
+  color: white;
+  padding: 6rem 0;
+  font-size: 1.5rem;
+
+}
+
+#main-footer h5{
+  color: #718fa9;
+}
+
+#main-footer a{
+  color: #6c6f73;
+}
+
+#clients{
+  background: lightgray;
+}
+
+#clients h4{
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+#contact{
+  background: #f0f0f0;
+}
+
+#contact h4{
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+#contact-form{
+  background: #d8d8d8;
+}
+
+.links-img{
+  height: 120px;
+  width: 300px;
+}
+@media screen and (min-width : 991px) {
+
+  .feature-content{
+    display: flex;
+    align-items: center;
+  }
+}
+0

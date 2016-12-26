@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<!--WORK IN PROGRESS-->
+<html>
+  <head>
+    <!--meta tags first-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Bruno Simic</title>
+    <link rel="icon" href="">
+
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,700" rel="stylesheet">
+
+    <!--custom css-->
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('a[href^="#"]').on('click',function (e){
+          e.preventDefault();
+
+          var target = this.hash;
+          var $target = $(target);
+
+          //scroll and don't show hash
+          $('html, body').animate({
+            'scrollTop': $target.offset().top
+          }, 1000, 'swing');
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <!--navigation removed-->
+    <div id="stage">
+      <div id="stage-caption">
+        <h1 class="display-3">Bruno</h1>
+        <h3>Front end developer</h3>
+        <a href="mailto:bruno.simic1@gmail.com" class="btn btn-lg btn-success">Contact Me</a>
+      </div>
+    </div>
+
+    <section id="feature-four" class="feature-alt">
+      <div class="container">
+        <div class="row">
+          <div class="feature-content">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <h6>Quick Quote</h6>
+              <blockquote class="blockquote">
+                &ldquo;One of my most productive days was throwing away 1000 lines of code.&rdquo;
+                <footer class="blockquote-footer">
+                  Ken Thompson, <cite>computer scientist, early developer of UNIX OS</cite>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="feature-who">
+      <div class="container">
+        <div class="row">
+          <div class="feature-content">
+            <div class="col-lg-8 col-lg-offset-2">
+              <h2 style="text-align:center;">Who am I?</h2>
+              <p>
+                I am student at University of Rijeka Faculty of Engineering. My interest is Web development, information security and AI.
+                Currently I am working as a web administrato at <a href="http://www.meblo.hr/" target="_blank">Meblo Trade</a>.
+              </p>
+              <p>
+                I am also a part of <a href="http://andromeda.agency">Andromeda agency</a> where I am currently learning back-end development to help fill a role.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="feature-one">
+      <div class="container">
+        <div class="row">
+          <div class="feature-content">
+            <div class="col-lg-6 text-sm-center hidden-sm hidden-xs">
+              <img src="images/web-monitor.png" alt="web"/>
+            </div>
+            <div class="col-lg-5 col-offset-1">
+              <h4>Web applications</h4>
+              <h2>Basic info</h2>
+              <p class="lead">
+                Experience of 3 years, with knowledge of Html, Css, Php, Sql, Bootstrap and JavaScript.
+              </p>
+              <p>
+               Made few projects for clients with Andromeda agency.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="feature-two" class="feature-dark">
+      <div class="container">
+        <div class="row">
+          <div class="feature-content">
+            <div class="col-lg-6 feature-caption">
+              <h4>Android application</h4>
+              <h2>Still learning</h2>
+              <p class="lead">
+                "Working" as android developer for last year and half. I made few basic apps where I learned a lot. Currently I am learning about clean architecture which will help me a lot in feature work.
+              </p>
+            </div>
+            <div class="col-lg-6 text-sm-center hidden-sm hidden-xs">
+              <img src="images/android-web.png" alt="android" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="feature-four" class="feature-alt">
+      <div class="container">
+        <div class="row">
+          <div class="feature-content">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <h6>Quick Quote</h6>
+              <blockquote class="blockquote">
+                &ldquo;Computer science education cannot make anybody an expert programmer any more than studying brushes and pigment can make somebody an expert painter.&rdquo;
+                <footer class="blockquote-footer">
+                   Eric S. Raymond, <cite>American programmer, open source software advocate, author of “The Cathedral and the Bazaar”</cite>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="feature">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ">
+            <div class="card">
+              <img class="links-img hidden-sm hidden-xs" src="images/github.png" alt="" />
+              <h4><a href="https://github.com/TomicaFranc" target="_blank">GitHub</a></h4>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="card">
+              <img class="links-img hidden-sm hidden-xs" src="images/linkedin.png" alt="" />
+              <h4><a href="https://www.linkedin.com/in/tomicafranc" target="_blank">LinkedIn</a></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="text-align:center;">
+          </br></br>
+            &copy; 2016 Bruno Šimić. All rights reserved. Coded by Bruno Šimić
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery & Bootstrap javascript files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
