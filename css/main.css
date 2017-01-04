@@ -37,63 +37,14 @@ img{
 }
 
 #stage{
-  /*background: url("hero_img.jpg") repeat fixed 100%;
-  background-size: cover;*/
+  background: url("hero_img.jpg") repeat fixed 100%;
+  background-size: cover;
   color: white;
   height: 100%;
   width: 100%;
   display: flex;
   top: 5em;
   align-items: center;
-  /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
-  */
-}
-
-#stage-video{
-  color: white;
-}
-
-.homepage-hero-module {
-    border-right: none;
-    border-left: none;
-    position: relative;
-}
-.no-video .video-container video,
-.touch .video-container video {
-    display: none;
-}
-.no-video .video-container .poster,
-.touch .video-container .poster {
-    display: block !important;
-}
-.video-container {
-    position: relative;
-    bottom: 0%;
-    left: 0%;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    background: #000;
-}
-.video-container .poster img {
-    width: 100%;
-    bottom: 0;
-    position: absolute;
-}
-.video-container .filter {
-    z-index: 100;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.6);
-    width: 100%;
-}
-.video-container video {
-    position: absolute;
-    z-index: 0;
-    bottom: 0;
-}
-.video-container video.fillWidth {
-    width: 100%;
 }
 
 #stage-caption{
@@ -139,8 +90,6 @@ img{
   /*background-color: green;*/
   background-color:transparent;
 
-/*
-border-bottom: red solid 1px;
 bottom: 2px;
 border-bottom-width: 3px;
 */
@@ -180,18 +129,6 @@ border-bottom-width: 3px;
   color: black;
   text-align: center;
 }
-/*div angle*/
-/*
-.sideways-left{
-    -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
-    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
-}
-
-.sideways-right{
-  -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
-  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
-}*/
-
 
 /*svg image size*/
 .feature-svg{
