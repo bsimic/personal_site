@@ -77,19 +77,13 @@ img{
 .navbar-custom .navbar-nav > li > a {
   color: white;
 }
-/*active link text color*/
-.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
-  color: black;
-  background-color:transparent;
-}
 /*hover*/
 .navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {
-  text-decoration: none;
-  background-color:transparent;
-  bottom: 2px;
-  border-bottom-width: 3px;
-  opacity: 0.7;
+  color: #0076C9;
+  border-radius: 5px;
+  background-color: black;
 }
+
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
@@ -143,6 +137,9 @@ img{
 }
 */
 
+.feature h4{
+    color: black;
+}
 .feature-dark{
   background: #2B2E37;
   color: white;
