@@ -25,17 +25,6 @@ img {
   max-width: 100%;
 }
 
-.blockquote {
-  font-size: 1.6rem;
-  color: #333;
-  border: none;
-  padding: 0;
-}
-
-.blockquote-footer {
-  margin: 1rem 0 0;
-}
-
 #stage {
   background: url("hero_img.jpg") repeat fixed 100%;
   background-size: cover;
